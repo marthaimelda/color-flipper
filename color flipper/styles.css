@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap);
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: gray;
+    color: black;
+    line-height: 1.5;
+    font-size: 1rem;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background: white;
+    height: 5rem;
+    display: grid;
+    align-items: center;
+}
+
+.nav-center {
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+}
+
+.nav-center h4 {
+    padding-left: 50px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.nav-link {
+    display: flex;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+
+nav a {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 1rem;
+    justify-content: space-between;
+    color: black;
+}
+
+nav a:hover {
+    color: darkslategray;
+}
+
+main {
+    min-height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h2 {
+    background: white;
+    color: black;
+    padding: 1rem;
+    margin-bottom: 2.5rem;
+    border-radius: 0.25rem;
+}
+
+.btn-hero {
+    text-transform: uppercase;
+    background: transparent;
+    color: black;
+    display: inline-block;
+    font-weight: 700;
+    transition: 0.3s ease;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.25rem;
+}
+
+.btn-hero:hover {
+    color: white;
+    background: black;
+}
